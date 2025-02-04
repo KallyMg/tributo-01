@@ -1,0 +1,133 @@
+html{
+font-family: helvetica;
+background-image: url(../imagens/Cassia\ Eller_\ 1_03_23.jpeg)
+}
+
+.container {
+    max-width: 1100px;
+    background-color: #fff;
+    position:relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    background-color: #dddddd00 ;
+}
+
+main{ background-color: #ddd;
+padding: 20px;
+border-radius: 10px;
+min-width:320px ;
+max-width: 800px;
+margin: auto;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+}
+
+.main-title{
+    font-size: 50px;
+}
+
+.main-paragraph{
+    font-style: italic;
+}
+
+.featured-imagem{
+    text-align: center;
+    margin-top: 30px;
+}
+.biography-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.quotes-container {
+    background-color: #ddd;
+    padding: 30px;
+
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p{
+    font-style: italic;
+}
+
+.curiosities-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.curiosites-container li {
+    height:px;
+}
+
+.img-bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+.moreinfo-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.MidiaSocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+audio{
+    padding: px;
+}
+audio::-webkit-media-controls-panel{
+    background-color: #000;
+}
+audio::-webkit-media-controls-play-button{
+    background-color: #ddd;
+    border-radius: 50%;
+}
+audio::-webkit-media-controls-current-time-display{
+    color: #ddd;
+}
+audio::-webkit-media-controls-time-remaining-display{
+    color: #ddd;
+}
+audio::-webkit-media-controls-timeline{
+    border-radius: 40px;
+    background-color: #ddd;
+}
+audio::-webkit-media-controls-volume-slider{
+    background-color: #ddd;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+audio::-webkit-media-controls-mute-button{
+    background-color: #ddd;
+    border-radius: 50%;
+}
+
